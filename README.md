@@ -10,7 +10,7 @@ Holding `CTRL` will pull the car backwards, charging up a boost. Let go to shoot
 
 The speed you go depends on how long you spent going backwards
 
-In the settings you can adjust things like how quickly the boost charges up, the speed you go when pulling back, and the maximum boost you can charge up before it automatically shoots
+In the settings you can adjust things like which button winds up, how quickly the boost charges up, the speed you go when pulling back, and the maximum boost you can charge up before it automatically shoots
 
 <br>
 
