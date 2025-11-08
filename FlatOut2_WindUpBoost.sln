@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatOut2_WindUpBoost", "FlatOut2_WindUpBoost\FlatOut2_WindUpBoost.csproj", "{0DF6F2BF-392A-4A49-96CE-0FDECF33DAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatOut2.SDK", "C:\Users\zackw\Documents\GitHub\FlatOut2.SDK\FlatOut2.SDK\FlatOut2.SDK.csproj", "{78BD422E-1DA8-7C15-8889-FEF7FAAC9B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF6F2BF-392A-4A49-96CE-0FDECF33DAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF6F2BF-392A-4A49-96CE-0FDECF33DAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF6F2BF-392A-4A49-96CE-0FDECF33DAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF6F2BF-392A-4A49-96CE-0FDECF33DAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BD422E-1DA8-7C15-8889-FEF7FAAC9B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BD422E-1DA8-7C15-8889-FEF7FAAC9B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BD422E-1DA8-7C15-8889-FEF7FAAC9B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BD422E-1DA8-7C15-8889-FEF7FAAC9B16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6191EAC7-6C33-4FA3-90E6-90C284B004A1}
+	EndGlobalSection
+EndGlobal
