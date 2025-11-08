@@ -65,19 +65,17 @@ namespace FlatOut2_WindUpBoost
 
             car->Nitro = 0;
 
-            if (Info.Controller.IsKeyHeld(KeyboardKeys.Control))
+            if (Info.Controller.IsKeyHeld(_configuration.BoostKey))
             {
                 if (!LockedOutOfWindUp)
                 {
                     if (!StartedWindUp)
                     {
                         Forward = Vector3.Normalize(car->Velocity);
-                        Rotation = car->Rotation;
                         StartedWindUp = true;
                     }
 
                     car->RotationalVelocity *= 0.5f;
-                    //car->Rotation = Rotation;
                     car->Velocity += -Forward;
 
                     if (Vector3.Dot(car->Velocity, Forward) < 0)

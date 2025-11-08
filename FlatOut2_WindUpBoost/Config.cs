@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using FlatOut2.SDK.Enums;
 using FlatOut2_WindUpBoost.Template.Configuration;
 using Reloaded.Mod.Interfaces.Structs;
 
@@ -40,6 +41,11 @@ namespace FlatOut2_WindUpBoost.Configuration
         [Description("The max amount of energy you can gain before you automatically shoot")]
         [DefaultValue(150.0f)]
         public float MaxWindUp { get; set; } = 150.0f;
+
+        [DisplayName("Boost Key")]
+        [Description("Allows you to remap the boost button")]
+        [DefaultValue(KeyboardKeys.Control)]
+        public KeyboardKeys BoostKey { get; set; } = KeyboardKeys.Control;
     }
 
     /// <summary>

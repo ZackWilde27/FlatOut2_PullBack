@@ -2,7 +2,7 @@
   "ModId": "flatout2.zw.pullback",
   "ModName": "FlatOut 2 Pull-Back Cars",
   "ModAuthor": "Zack Wilde",
-  "ModVersion": "1.0.0",
+  "ModVersion": "1.0.1",
   "ModDescription": "You know those pull-back toy cars that wind up when you drive them backwards?\nInspired by petar\u0027s anti-nitro, boosting has been replaced with a new mechanic, holding CTRL will cause you to go backwards and wind up, releasing it will slingshot you forward based on on how far you pulled back",
   "ModDll": "FlatOut2_WindUpBoost.dll",
   "ModIcon": "Preview.png",
